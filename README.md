@@ -3,7 +3,7 @@
 Solución para el registro, seguimiento y administración de quejas diseñada para áreas operativas de TI.
 
 ## 🗄️ Estructura de la Base de Datos
-![Diagrama BD](./SistemaGestorQuejasBD/diagrama_tablas.png)
+![Diagrama BD](./SistemaGestorQuejasBD/DiagramaBaseDatos.png)
 
 ### Características
 * **Dashboard:** Filtros por folio y estado de la queja.
