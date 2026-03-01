@@ -1,85 +1,42 @@
-# ?? Sistema de Gesti¢n de Quejas V2026
+# üöÄ Sistema de Gesti√≥n de Quejas V2026
 
+Soluci√≥n para el registro, seguimiento y administraci√≥n de quejas dise√±ada para √°reas operativas de TI.
 
-
-SoluciÛn para el registro, seguimiento y administraciÛn de quejas diseÒada para ·reas operativas de TI.
-
-## ??? Estructura de la Base de Datos
+## üóÑÔ∏è Estructura de la Base de Datos
 ![Diagrama BD](./SistemaGestorQuejasBD/diagrama_tablas.png)
 
-\## ? CaracterÌsticas
+### Caracter√≠sticas
+* **Dashboard:** Filtros por folio y estado de la queja.
+* **Gesti√≥n de Estados:** Flujo l√≥gico de estados (Registrada -> An√°lisis -> Resuelta -> Cerrada).
+* **Validaci√≥n de Reglas de Negocio:** Implementadas en el Backend para asegurar la integridad de los datos.
+* **Arquitectura Limpia:** Separaci√≥n de responsabilidades (Web API + Frontend desacoplado).
 
-\- \*\*Dashboard:\*\* Filtros por folio y estado de la queja.
+## üõ†Ô∏è Stack Tecnol√≥gico
+* **Backend:** .NET 10.0.3 Web API (C#)
+* **Base de Datos:** SQL Server + Entity Framework Core
+* **Frontend:** JavaScript, HTML5, Bootstrap 5
+* **Herramientas:** Git, GitHub, Swagger
 
-\- \*\*GestiÛn de Estados:\*\* Flujo lÛgico de estados (Registrada -> An·lisis -> Resuelta -> Cerrada).
+## ‚öôÔ∏è Gu√≠a de Instalaci√≥n
 
-\- \*\*ValidaciÛn de Reglas de Negocio:\*\* Implementadas en el Backend para asegurar la integridad de los datos.
+### 1. Base de Datos
+* Localiza el script SQL en la carpeta `/SistemaGestorQuejasBD`.
+* Ejec√∫talo en tu instancia de SQL Server para crear las tablas y datos semilla.
 
-\- \*\*Arquitectura Limpia:\*\* SeparaciÛn de responsabilidades (Web API + Frontend desacoplado).
+### 2. Backend (API)
+* Abre la soluci√≥n en Visual Studio 2022.
+* Revisa el `appsettings.json` y ajusta tu `ConnectionString`.
+* Ejecuta el proyecto (Puerto predeterminado: 5045).
 
+### 3. Frontend
+* Abre el archivo `index.html` ubicado en `/Quejas.Web`, directamente en el navegador o usa la extensi√≥n "Live Server" en VS Code.
 
+## ‚ö†Ô∏è Configuraci√≥n de la API (Frontend)
+Para que el Frontend se comunique correctamente con la API, aseg√∫rate de que la URL en `script.js` coincida con la de tu servidor local:
 
-\## ??? Stack TecnolÛgico
+1. Inicia el proyecto Backend en Visual Studio.
+2. Copia la URL base (ej: `http://localhost:5045`).
+3. Abre `Frontend/script.js` y actualiza la constante al inicio del archivo:
 
-\- \*\*Backend:\*\* .NET 10.0.3 Web API (C#)
-
-\- \*\*Base de Datos:\*\* SQL Server + Entity Framework Core
-
-\- \*\*Frontend:\*\* JavaScript , HTML5, Bootstrap 5
-
-\- \*\*Herramientas:\*\* Git, GitHub, Swagger
-
-
-
-\## ?? GuÌa de InstalaciÛn
-
-
-
-\### 1. Base de Datos
-
-\- Localiza el script SQL en la carpeta `/SistemaGestorQuejasBD`.
-
-\- Ejec˙talo en tu instancia de SQL Server para crear las tablas y datos semilla.
-
-
-
-\### 2. Backend (API)
-
-\- Abre la soluciÛn en Visual Studio 2022.
-
-\- Revisa el `appsettings.json` y ajusta tu `ConnectionString`.
-
-\- Ejecuta el proyecto (Puerto predeterminado: 5045).
-
-
-
-\### 3. Frontend
-
-\- Abre el archivo `index.html` ubicado en `/Quejas.Web, directamente en el navegador o usa la extensiÛn "Live Server" en VS Code.
-
-
-
-\### ?? ConfiguraciÛn de la API (Frontend)
-
-Para que el Frontend se comunique correctamente con la API, aseg˙rate de que la URL en `script.js` coincida con la de tu servidor local:
-
-
-
-1\. Inicia el proyecto Backend en Visual Studio.
-
-2\. Copia la URL base (ej: `http://localhost:5045`).
-
-3\. Abre `Frontend/script.js` y actualiza la constante al inicio del archivo:
-
-&nbsp;  ```javascript
-
-&nbsp;  const API\_URL = 'http://localhost:5045/api/Quejas';
-
-
-
-
-
----
-
-Desarrollado por: \*\*Dayana JimÈnez\*\*
-
+```javascript
+const API_URL = 'http://localhost:5045/api/Quejas';
