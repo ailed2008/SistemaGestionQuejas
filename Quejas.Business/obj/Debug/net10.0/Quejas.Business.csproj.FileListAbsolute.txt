@@ -1,0 +1,17 @@
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\bin\Debug\net10.0\Quejas.Business.deps.json
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\bin\Debug\net10.0\Quejas.Business.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\bin\Debug\net10.0\Quejas.Business.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\bin\Debug\net10.0\Quejas.Data.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\bin\Debug\net10.0\Quejas.Entities.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\bin\Debug\net10.0\Quejas.Data.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\bin\Debug\net10.0\Quejas.Entities.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.Business.csproj.AssemblyReference.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.Business.AssemblyInfoInputs.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.Business.AssemblyInfo.cs
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.Business.csproj.CoreCompileInputs.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.B.133B7F37.Up2Date
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.Business.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\refint\Quejas.Business.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\Quejas.Business.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Business\obj\Debug\net10.0\ref\Quejas.Business.dll

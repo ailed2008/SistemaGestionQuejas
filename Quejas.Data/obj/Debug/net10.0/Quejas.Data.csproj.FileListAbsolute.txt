@@ -1,0 +1,17 @@
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\bin\Debug\net10.0\Quejas.Data.deps.json
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\bin\Debug\net10.0\Quejas.Data.runtimeconfig.json
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\bin\Debug\net10.0\Quejas.Data.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\bin\Debug\net10.0\Quejas.Data.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\bin\Debug\net10.0\Quejas.Entities.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\bin\Debug\net10.0\Quejas.Entities.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.csproj.AssemblyReference.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.AssemblyInfoInputs.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.AssemblyInfo.cs
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.csproj.CoreCompileInputs.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.D.8D3A32DD.Up2Date
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\refint\Quejas.Data.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\Quejas.Data.genruntimeconfig.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Data\obj\Debug\net10.0\ref\Quejas.Data.dll

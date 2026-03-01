@@ -1,0 +1,11 @@
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\bin\Debug\net10.0\Quejas.Entities.deps.json
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\bin\Debug\net10.0\Quejas.Entities.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\bin\Debug\net10.0\Quejas.Entities.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\Quejas.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\Quejas.Entities.AssemblyInfoInputs.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\Quejas.Entities.AssemblyInfo.cs
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\Quejas.Entities.csproj.CoreCompileInputs.cache
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\Quejas.Entities.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\refint\Quejas.Entities.dll
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\Quejas.Entities.pdb
+C:\DISCO EXTRA\Downloads\SistemaGestorQuejas\Quejas.Entities\obj\Debug\net10.0\ref\Quejas.Entities.dll

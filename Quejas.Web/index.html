@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Quejas V2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-dark bg-primary mb-4 shadow-sm">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Gestión de Quejas</span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card shadow-sm mb-4">
+            <div class="card-body row g-3">
+                <div class="col-md-5">
+                    <label class="form-label fw-bold">Buscar por Folio</label>
+                    <input type="text" id="busquedaFolio" class="form-control" placeholder="Ej: F-2026...">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label fw-bold">Estado</label>
+                    <select id="filtroEstado" class="form-select">
+                        <option value="">Todos</option>
+                        <option value="1">Registrada</option>
+                        <option value="2">Análisis</option>
+                        <option value="4">Resuelta</option>
+                        <option value="6">Cerrada</option>
+                    </select>
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                    <button onclick="cargarQuejas()" class="btn btn-primary w-100">Aplicar Filtros</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-responsive bg-white p-3 shadow-sm rounded">
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Folio</th>
+                        <th>Título</th>
+                        <th>Cliente</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaQuejas">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDetalle" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title">Detalle de Queja: <span id="folio"></span></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h4 id="titulo" class="text-primary"></h4>
+                            <p id="descripcion" class="text-muted"></p>
+                        </div>
+                        <div class="col-md-5 border-start">
+                            <p class="mb-1"><strong>Cliente:</strong> <span id="nombreCliente"></span></p>
+                            <p class="mb-1"><strong>Correo:</strong> <span id="correo"></span></p>
+                            <p class="mb-1"><strong>Fecha:</strong> <span id="fechaRegistro"></span></p>
+                            <p class="mb-1"><strong>Estado:</strong> <span id="idEstado" class="badge"></span></p>
+                        </div>
+                    </div>
+                    <hr>
+                   <div id="seccionEstatus" class="p-3 bg-light rounded shadow-sm">
+                        <h6 class="fw-bold mb-3">Actualizar Seguimiento</h6>
+                        <div class="row g-2">
+                            <div class="col-md-5">
+                                <label class="small text-muted">Nuevo Estado:</label>
+                                <select id="nuevoEstadoId" class="form-select">
+                                    <option value="1">Registrada</option>
+                                    <option value="2">En Análisis</option>
+                                    <option value="3">En Proceso</option>
+                                    <option value="4">Resuelta</option>
+                                    <option value="5">Rechazada</option>
+                                    <option value="6">Cerrada</option>
+                                </select>
+                            </div>
+                            <div class="col-md-7">
+                                <label class="small text-muted">Comentario / Motivo:</label>
+                                <input type="text" id="comentarioEstado" class="form-control" placeholder="Describa el avance...">
+                            </div>
+                            <div class="col-12 mt-2">
+                                <button onclick="guardarCambioEstatus()" id="btnGuardarEstatus" class="btn btn-success w-100 fw-bold">
+                                    Confirmar Cambio de Estado
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

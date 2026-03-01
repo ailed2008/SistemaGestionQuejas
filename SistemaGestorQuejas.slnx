@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Quejas.API/Quejas.API.csproj" />
+  <Project Path="Quejas.Business/Quejas.Business.csproj" />
+  <Project Path="Quejas.Data/Quejas.Data.csproj">
+    <BuildDependency Project="Quejas.Entities/Quejas.Entities.csproj" />
+  </Project>
+  <Project Path="Quejas.Entities/Quejas.Entities.csproj" />
+</Solution>
